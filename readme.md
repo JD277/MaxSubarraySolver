@@ -96,18 +96,18 @@ La recurrencia del algoritmo es:
 
 
 T(n) = 2T\left(\frac{n}{2}\right) + \Theta(n)
-\]
+
 
 -  2T(n/2) : dos llamadas recursivas sobre mitades del arreglo.
--  \Theta(n) : cálculo del subarreglo cruzado (recorrido lineal desde el centro).
+-  Θ(n) : cálculo del subarreglo cruzado (recorrido lineal desde el centro).
 
-Aplicando el **Teorema Maestro**, esta recurrencia pertenece al **Caso 2**, donde  f(n) = \Theta(n) = \Theta(n^{\log_b a})  con  a=2 ,  b=2 ,  \log_b a = 1 .
+Esta recurrencia pertenece al **Caso 2**, donde  f(n)=Θ(n)=Θ(nlogb​a)  con a=2 , b=2 , logb​a=1 .
 
 Por tanto:
 
 
-T(n) = \Theta(n \log n)
-\]
+T(n)=Θ(nlogn)
+
 
 ### **6.2. Complejidad Espacial**
 
@@ -118,7 +118,7 @@ Entonces, el espacio total es:
 
 
 \Theta(\log n)
-\]
+
 
 ---
 
