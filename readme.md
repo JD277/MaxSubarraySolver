@@ -111,8 +111,8 @@ T(n)=Θ(nlogn)
 
 ### **6.2. Complejidad Espacial**
 
-- **Espacio adicional:**  \Theta(1)  (variables locales en los bucles).
-- **Profundidad de recursión:**  \Theta(\log n)  (debido a la división binaria).
+- **Espacio adicional:**  Θ(1)  (variables locales en los bucles).
+- **Profundidad de recursión:** Θ(logn)  (debido a la división binaria).
 
 Entonces, el espacio total es:
 
